@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview Scheduler</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Interview Scheduler</h1>
+    <form id="scheduleForm">
+      <input type="text" id="candidateName" placeholder="Candidate Name" required />
+      <input type="datetime-local" id="interviewDateTime" required />
+      <button type="submit">Schedule Interview</button>
+    </form>
+
+    <h2>Scheduled Interviews</h2>
+    <ul id="interviewList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
