@@ -1,0 +1,20 @@
+document.getElementById("scheduleForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("candidateName").value;
+  const dateTime = document.getElementById("interviewDateTime").value;
+
+  if (!name || !dateTime) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  const interviewItem = document.createElement("li");
+  interviewItem.textContent = `${name} - ${new Date(dateTime).toLocaleString()}`;
+
+  document.getElementById("interviewList").appendChild(interviewItem);
+
+  // Clear form fields
+  document.getElementById("candidateName").value = "";
+  document.getElementById("interviewDateTime").value = "";
+});
