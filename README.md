@@ -26,7 +26,7 @@ A simple web-based Interview Scheduler application built with HTML, CSS, and Jav
 
 ## Screenshots
 
-(Add any screenshots here if you'd like to show how the app looks)
+![Image](https://github.com/user-attachments/assets/a6565c33-ab24-456a-91d4-368c940d46c8)
 
 ## Future Enhancements
 
